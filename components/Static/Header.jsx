@@ -13,6 +13,7 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
 
                 <div className="flex justify-between border-b border-white/20 items-center px-5 py-4">
                     <div className="flex items-center">
+                        <img width="32" className="rounded-full icon-glow" src="https://cdn.discordapp.com/attachments/959888406358417448/1258873065501364285/logo.png" />
                         <p className=" font-extrabold ml-1 text-2xl">GibraMusic</p>
                     </div>
                     <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
