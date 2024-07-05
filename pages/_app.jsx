@@ -20,14 +20,14 @@ export default function AwardApp({ Component, pageProps }) {
   const NavItems = [
     {
       link: true,
-      name: "Home",
+      name: "Accueil",
       icon: "fal fa-home",
       activeIcon: "fa fa-home",
       href: "/",
     },
     {
       link: true,
-      name: "Commands",
+      name: "Commandes",
       icon: "fa fa-list-alt",
       activeIcon: "fa fa-list-alt",
       href: "/commands",
@@ -41,24 +41,31 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Add Bot",
+      name: "Ajouter le bot",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
       href: "https://discord.com/oauth2/authorize?client_id=1258410048615612566&permissions=8&integration_type=0&scope=bot+applications.commands",
     },
        {
       link: true,
-      name: "Vote",
+      name: "Voter",
       icon: "fa fa-plus",
       activeIcon: "fa fa-plus",
       href: "",
     },
     {
       link: true,
-      name: "Partners",
+      name: "Partenaires",
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
+    },
+    {
+      link: true,
+      name: "Gibrabot",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "https://gibrabot.vercel.app/",
     }
   ]
 
