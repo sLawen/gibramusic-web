@@ -21,7 +21,7 @@ class MyDocument extends Document {
           <meta property="og:title" content="MusicMaker" />
           <link
             rel="icon"
-            href="/components/logo.png"
+            href="/img/logo2.png"
             type="image/x-icon"
           />
           <meta
