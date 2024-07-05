@@ -18,13 +18,6 @@ export default function Footer() {
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Lien</p>
                             <div>
-                                <Link href="">
-                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        GibraMusic
-                                    </a>
-                                </Link>
-                            </div>
-                            <div>
                                 <a href="https://discord.gg/J6nJE7zgNa" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     Serveur support
                                 </a>
