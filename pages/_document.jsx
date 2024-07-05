@@ -21,14 +21,14 @@ class MyDocument extends Document {
           <meta property="og:title" content="MusicMaker" />
           <link
             rel="icon"
-            href="https://cdn.discordapp.com/attachments/959888406358417448/1258873065501364285/logo.png"
+            href="/components/logo.png"
             type="image/x-icon"
           />
           <meta
             property="og:description"
             content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
           />
-          <meta property="og:image" content="/img/logo.jpg" />
+          <meta property="og:image" content="/components/logo.png" />
           <meta property="og:image:alt" content="MusicMaker" />
           <meta property="og:locale" content="en_GB" />
           <meta
@@ -36,7 +36,7 @@ class MyDocument extends Document {
             content="MusicMaker"
           />
           <meta name="theme-color" content="#087ddd" />
-          <link rel="icon" href="https://cdn.discordapp.com/attachments/959888406358417448/1258873065501364285/logo.png" type="image/x-icon" />
+          <link rel="icon" href="/components/logo.png" type="image/x-icon" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
             rel="stylesheet"
