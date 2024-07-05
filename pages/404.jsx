@@ -6,7 +6,7 @@ const UnkownPage = () => {
         'Les Aurors ont bloqué cette route, Harry!'
     ];
 
-    return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Page not found."} />
+    return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Aucune page trouvée."} />
 }
 
 export default UnkownPage;
